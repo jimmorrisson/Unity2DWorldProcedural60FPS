@@ -6,7 +6,7 @@ using UnityEngine.Tilemaps;
 
 public class CreateTilemap : MonoBehaviour
 {
-    public static float maxLoopTime = 16.0f; // miliseconds
+    public static float maxLoopTime = 10.0f; // miliseconds
     public static int TilesSpawned { get; private set; }
     public static event Action OnLoadingFinished;
     public static int[,] GenerateArray(int width, int height, bool empty)
